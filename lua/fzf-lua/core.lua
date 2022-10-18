@@ -443,6 +443,7 @@ M.fzf = function(contents, opts)
       silent_fail = opts.silent_fail,
       is_fzf_tmux = opts._is_fzf_tmux,
       debug = opts.debug_cmd or opts.debug and not (opts.debug_cmd == false),
+      debug_tracelog = opts.debug_tracelog,
       RIPGREP_CONFIG_PATH = opts.RIPGREP_CONFIG_PATH,
     })
   -- kill fzf piped process PID
